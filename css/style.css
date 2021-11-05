@@ -1,8 +1,11 @@
+body{
+    text-align: center;
+}
 .container{
     max-width: 1370px;
     margin: 0 auto;
     text-align: center;
-    padding: 100px 0;
+    padding: 100px 0 30px;
 }
 h1{
     font-size: 1.5em;
@@ -12,5 +15,17 @@ h1{
 }
 img{
     width: 25%;
+    margin: 0 auto;
     margin-top: 30px;
+}
+.call{
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    margin-top: 50px;
+    background-color: #f27249;
+    color: #fff;
+    padding: 10px 25px;
+    border-radius: 35px;
 }
